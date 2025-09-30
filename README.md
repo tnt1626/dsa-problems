@@ -1,9 +1,5 @@
 # 📘 NeetCode Roadmap Solutions (C/C++)
 
-![Language](https://img.shields.io/badge/language-C++-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Status](https://img.shields.io/badge/progress-In%20Progress-orange)
-
 ---
 
 ## 🔹 About
