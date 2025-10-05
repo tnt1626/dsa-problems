@@ -1,4 +1,4 @@
-// Source: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+// Source: https://leetcode.com/problems/container-with-most-water/
 // Author: Ngoc-Tien To
 
 // Idea: Think of its as finding the largest rectangle formed by two lines.
