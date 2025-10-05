@@ -3,7 +3,7 @@
 ---
 
 ## 🔹 About
-This repository contains my solutions to problems in **[NeetCode's Data Structures & Algorithms Roadmap](https://neetcode.io/roadmap)**, implemented in **C/C++**.  
+This repository contains my solutions to problems in **[NeetCode's Data Structures & Algorithms Roadmap](https://neetcode.io/roadmap)**, implemented in **C/C++**(mainly C). 
 The goal is to build a solid foundation in algorithms, problem solving, and interview preparation.
 
 ---
