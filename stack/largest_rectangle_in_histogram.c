@@ -7,13 +7,6 @@
 // where the width of each bar is 1, return the area of the largest rectangle in the histogram.
 
 // Idea:
-// 1. Dùng Monotonic Stack lưu chỉ số các cột có chiều cao tăng dần.
-// 2. Khi gặp một cột thấp hơn cột top của stack -> pop cột top:
-//      - Cột top là cột cao nhất trong khoảng mà hình chữ nhật có thể mở rộng.
-//      - Chiều rộng = (stack trống ? i : i - stack[cap-1] - 1).
-// 3. Cập nhật maxArea sau mỗi lần pop.
-// 4. Thêm cột giả có chiều cao 0 ở cuối để xử lý hết stack.
-
 // 1. Use a Monotonic Stack to store indices of bars in increasing order
 // 2. When encoutering a bar shorter than the bar at the top of stack -> pop the top:
 //      - The top of the stack is the highest bar that the rectangle can widen
