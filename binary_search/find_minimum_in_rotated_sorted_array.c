@@ -17,6 +17,12 @@
 
 
 // ----------------------------------IDEA----------------------------------
+// This problem is a variation of the standard binary search.
+// The key observation is that the array is sorted but rotated at some "break point".
+// We need to determine which side of the array (left or right) contains the minimum.
+// By comparing the middle element with the boundary values, 
+// we can eliminate one half of the array each time until we find the smallest element.
+
 
 int findMin(int* nums, int numsSize) {
     int n = numsSize;
