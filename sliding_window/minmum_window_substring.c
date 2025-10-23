@@ -4,23 +4,6 @@
 // Author : Ngoc-Tien To
 // -----------------------------------------------------------------------------
 
-// ---------------------------------- DESCRIPTION ----------------------------------
-//
-// Given two strings s and t of lengths m and n respectively, return the minimum window 
-// substring of s such that every character in t (including duplicates) is included in the window. 
-// If there is no such substring, return the empty string "".
-//
-// Example:
-//   Input: s = "ADOBECODEBANC", t = "ABC"
-//   Output: "BANC"
-//
-// Constraints:
-//   - 1 <= s.length, t.length <= 10⁵
-//   - s and t consist of English letters.
-//
-// ----------------------------------------------------------------------------------
-
-
 // ---------------------------------- IDEA ----------------------------------
 //
 // 1. Use the sliding window technique with two pointers (left and right).
