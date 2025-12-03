@@ -27,7 +27,7 @@ public:
     // Depth-first search to visit all nodes in the same component
     void dfs(const vector<vector<int>>& adj, int u, vector<bool>& visited) {
         visited[u] = true;
-        for (auto& node : adj[u]) {
+        for (const auto &node : adj[u]) {
             if (!visited[node]) {
                 dfs(adj, node, visited);
             }
@@ -35,12 +35,12 @@ public:
     }
 
     // Count the number of connected components in the graph
-    int countComponents(int n, vector<vector<int>>& edges) {
+    int countComponents(int n, const vector<vector<int>> &edges) {
         vector<vector<int>> adj(n);
         vector<bool> visited(n, false);
 
         // Build adjacency list
-        for (auto& edge : edges) {
+        for (const auto &edge : edges) {
             adj[edge[0]].push_back(edge[1]);
             adj[edge[1]].push_back(edge[0]);
         }
