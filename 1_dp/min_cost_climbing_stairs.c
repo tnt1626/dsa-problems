@@ -1,3 +1,17 @@
+// -----------------------------------------------------------------------------
+// Problem: Min Cost Climbing Stairs
+// Source : https://leetcode.com/problems/min-cost-climbing-stairs/
+// Author : Ngoc-Tien To
+// -----------------------------------------------------------------------------
+//
+// IDEA
+// 1. Task: Given cost per step, compute minimum cost to reach top (beyond last).
+// 2. Approach: DP where dp[i] is min cost to reach step i; dp[i] = cost[i] + min(dp[i-1], dp[i-2]).
+//
+// Time Complexity  : O(n)
+// Space Complexity : O(n) (can be optimized to O(1))
+// -----------------------------------------------------------------------------
+
 int min(int a, int b){
     return a < b ? a : b;
 }

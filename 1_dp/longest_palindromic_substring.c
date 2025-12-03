@@ -1,3 +1,21 @@
+// -----------------------------------------------------------------------------
+// Problem: Longest Palindromic Substring
+// Source : https://leetcode.com/problems/longest-palindromic-substring/
+// Author : Ngoc-Tien To
+// -----------------------------------------------------------------------------
+//
+// IDEA
+// 1. Task: Return the longest palindromic substring in `s`.
+// 2. Approach: Expand around each center (odd/even centers), track max length
+//    and starting index. Copy result into a newly allocated buffer.
+//
+// Time Complexity  : O(n^2) in worst-case
+// Space Complexity : O(n) for output buffer
+// -----------------------------------------------------------------------------
+
+#include <stdlib.h>
+#include <string.h>
+
 char* longestPalindrome(char* s) {
     int n = strlen(s);
 
